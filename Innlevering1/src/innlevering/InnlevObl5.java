@@ -7,9 +7,9 @@ public class InnlevObl5 {
 
 		for (int i = 1; i <= 10; i++) {
 			int poeng = 0;
-			{
-				poeng = Integer.parseInt(showInputDialog(+i + " Skriv inn poengsum"));
-			}
+			
+			poeng = Integer.parseInt(showInputDialog(+i + " Skriv inn poengsum"));
+			
 			while (poeng < 1 || poeng > 100) {
 				poeng = Integer.parseInt(showInputDialog("Poengsum må være mellom 0 og 100"));
 			}
